@@ -88,7 +88,7 @@ else:
 if( os.path.isfile('../변형데이터/일반상식.csv')):
     print("일반상식.csv pass")
 else:
-    common_sense = open(f"../../원본데이터/ko_wiki_v1_squad.json", encoding="UTF-8")
+    common_sense = open(f"../원본데이터/ko_wiki_v1_squad.json", encoding="UTF-8")
     common_sense = json.loads(common_sense.read())
     query = []
     answer = []
@@ -107,7 +107,7 @@ else:
 if( os.path.isfile('../변형데이터/영화리뷰.csv')):
     print("영화리뷰.csv pass")
 else:
-    ratings = pd.read_csv("../../원본데이터/ratings.txt", delimiter='\t')
+    ratings = pd.read_csv("../원본데이터/ratings.txt", delimiter='\t')
     print(ratings.head())
     print(ratings.tail())
     ratings.to_csv("../변형데이터/영화리뷰.csv", index=False)
