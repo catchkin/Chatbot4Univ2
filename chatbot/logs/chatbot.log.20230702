@@ -1,0 +1,90 @@
+2023-07-02 12:21:55,409,대학원 위치 요,장소,대학원번호알려줘,번호,0
+2023-07-02 12:30:30,617,엑셀 파일 로드,장소,대학원번호알려줘,번호,0
+2023-07-02 12:32:34,445,엑셀 파일 로드,장소,대학원번호알려줘,번호,0
+2023-07-02 19:31:19,274,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-07-02 19:31:19,274,[33mPress CTRL+C to quit[0m
+2023-07-02 19:37:42,932,Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "chatbot.py", line 80, in index
+    return render_template("index.html")
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2023-07-02 19:37:42,936,127.0.0.1 - - [02/Jul/2023 19:37:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-07-02 19:37:43,723,Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "chatbot.py", line 80, in index
+    return render_template("index.html")
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2023-07-02 19:37:43,724,127.0.0.1 - - [02/Jul/2023 19:37:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-07-02 19:37:51,295,Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "chatbot.py", line 80, in index
+    return render_template("index.html")
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bctone\anaconda3\envs\chatbot4univ\lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2023-07-02 19:37:51,295,127.0.0.1 - - [02/Jul/2023 19:37:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
