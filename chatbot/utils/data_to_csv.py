@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/')
+sys.path.append('F:\dev\Chatbot4Univ2\chatbot')
 
 import os
 import json
@@ -20,7 +20,7 @@ def counting(path):
 if( os.path.isfile('../변형데이터/용도별목적대화데이터.csv')):
     print("용도별목적대화데이터.csv pass")
 else:
-    target_path = "../../원본데이터/용도별 목적대화 데이터/"
+    target_path = "../원본데이터/용도별목적대화데이터/"
     target_path_list = os.listdir(target_path)
     #print(target_path_list, '\n')
     total_data = 0
@@ -53,7 +53,7 @@ else:
 if( os.path.isfile('../변형데이터/주제별일상대화데이터.csv')):
     print("주제별일상대화데이터.csv pass")
 else:
-    target_path = "../../원본데이터/주제별 일상 대화 데이터/"
+    target_path = "../../원본데이터/주제별일상대화데이터/"
     target_path_list = os.listdir(target_path)
     #print(target_path_list, '\n')
     total_data = 0
