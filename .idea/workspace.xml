@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc68bf61-047f-4873-a5e5-20840b6dbaaa" name="Changes" comment="recreation create_dict.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot/train_tools/dict/create_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot/train_tools/dict/create_dict.py" afterDir="false" />
-    </list>
+    <list default="true" id="cc68bf61-047f-4873-a5e5-20840b6dbaaa" name="Changes" comment="add 통합본데이터.csv" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -326,7 +323,47 @@
       <option name="project" value="LOCAL" />
       <updated>1688474357297</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="recreation create_dict.py">
+      <option name="closed" value="true" />
+      <created>1688517562718</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1688517562718</updated>
+    </task>
+    <task id="LOCAL-00036" summary="recreation chatbot_dict.bin">
+      <option name="closed" value="true" />
+      <created>1688517607123</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1688517607123</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add csv-editor.xml">
+      <option name="closed" value="true" />
+      <created>1688517830415</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1688517830415</updated>
+    </task>
+    <task id="LOCAL-00038" summary="modify train_data.csv">
+      <option name="closed" value="true" />
+      <created>1688518198075</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1688518198075</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add 통합본데이터.csv">
+      <option name="closed" value="true" />
+      <created>1688518238130</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1688518238130</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,6 +395,10 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="add" />
     <MESSAGE value="recreation create_dict.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="recreation create_dict.py" />
+    <MESSAGE value="recreation chatbot_dict.bin" />
+    <MESSAGE value="add csv-editor.xml" />
+    <MESSAGE value="modify train_data.csv" />
+    <MESSAGE value="add 통합본데이터.csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 통합본데이터.csv" />
   </component>
 </project>
