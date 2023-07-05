@@ -10,10 +10,10 @@ import pickle
 import pandas as pd
 
 # 말뭉치 데이터 읽어오기
-movie_review = pd.read_csv('../../chatbot/변형데이터/영화리뷰.csv')
-purpose = pd.read_csv('../../chatbot/변형데이터/용도별목적대화데이터.csv')
-topic = pd.read_csv('../../chatbot/변형데이터/주제별일상대화데이터.csv')
-common_sense = pd.read_csv('../../chatbot/변형데이터/일반상식.csv')
+movie_review = pd.read_csv('../../../chatbot/변형데이터/영화리뷰.csv')
+purpose = pd.read_csv('../../../chatbot/변형데이터/용도별목적대화데이터.csv')
+topic = pd.read_csv('../../../chatbot/변형데이터/주제별일상대화데이터.csv')
+common_sense = pd.read_csv('../../../chatbot/변형데이터/일반상식.csv')
 #print(movie_review.head())
 
 movie_review.dropna(inplace=True)
