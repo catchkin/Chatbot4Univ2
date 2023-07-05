@@ -21,16 +21,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/dev/Chatbot4Univ2/chatbot/원본데이터",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/dev/Chatbot4Univ2/chatbot/원본데이터&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\dev\Chatbot4Univ2\chatbot" />
@@ -363,7 +363,63 @@
       <option name="project" value="LOCAL" />
       <updated>1688518238130</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="modify train_data.csv">
+      <option name="closed" value="true" />
+      <created>1688518285785</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1688518285785</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1688518361689</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1688518361689</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add 통합본데이터.csv">
+      <option name="closed" value="true" />
+      <created>1688518491015</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1688518491015</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add 통합본데이터.csv">
+      <option name="closed" value="true" />
+      <created>1688518592421</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1688518592421</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add 통합본데이터.csv">
+      <option name="closed" value="true" />
+      <created>1688518593767</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1688518593767</updated>
+    </task>
+    <task id="LOCAL-00045" summary="add 통합본데이터.csv">
+      <option name="closed" value="true" />
+      <created>1688518594174</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1688518594174</updated>
+    </task>
+    <task id="LOCAL-00046" summary="add 통합본데이터.csv">
+      <option name="closed" value="true" />
+      <created>1688518594611</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1688518594611</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,6 +454,7 @@
     <MESSAGE value="recreation chatbot_dict.bin" />
     <MESSAGE value="add csv-editor.xml" />
     <MESSAGE value="modify train_data.csv" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="add 통합본데이터.csv" />
     <option name="LAST_COMMIT_MESSAGE" value="add 통합본데이터.csv" />
   </component>
